@@ -4,7 +4,7 @@
         A {text-decoration:none;}
     </style>
     <head>
-        <title>My development Journal</title>
+        <title>Register</title>
     </head>
     <body>
         <button><a href="index.html">Home</a></button>
@@ -18,19 +18,34 @@
         <!-- Use GET,not POST -->
         <br>
         <form method="GET">
-            First Name: <input type="text" name="firstname"><br>
-            Last Name: <input type="text" name="lastname"><br>
-            Email: <input type="email" name="email"><br>
+        <fieldset> 
+            <legend>
+                Your Details:
+            </legend>
+            <lable>
+                First Name: <input type="text" name="firstname" size="30" maxlength="100">
+            </lable>
+            <br>
+            <lable>
+                Last Name: <input type="text" name="lastname">
+            </lable>
+            <br>
+            <lable>
+                Email: <input type="email" name="email" required="required">
+            </lable>
+            <br>
             <select name="Pets"><br>
                 <option vakue="cat" name="cat"> I am a catperson.<br>
                 <option value="dog" name="dog"> I am a dogperson.<br>
                 <option value="bird" name="bird">I am a birdperson.</option>
                 <option value="nopets" name="nopets">Nah, I am no pets person.</option>
             </select><br>
+        </fieldset>    
             <br>
             <br>
             <input type="submit" value="I would love to Join!">
             <input type="reset" value="Oops! I make a mistake.">
+        
         </form>
     </body>
 </html>
