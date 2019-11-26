@@ -1,0 +1,12 @@
+A {
+    text-decoration:none;
+}
+
+body{
+    background-image: url(background1.jpg);
+    background-size: cover;
+}
+
+h4 {
+    text-align:center;
+}
